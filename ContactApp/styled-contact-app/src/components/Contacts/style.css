@@ -8,7 +8,7 @@ input {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     border: none;
-    padding: 7px;
+    padding: 9px;
     margin: 5px 0;
 }
 
@@ -26,17 +26,27 @@ ul, li {
     padding: 5px;
     background-color: rgba(238, 120, 238, 0.349);
     border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
     letter-spacing: 1px;
 }
 
 .contform {
     position: relative;
-    background: rgba(255, 255, 255, 0.205);
+    background: rgba(255, 255, 255, 0.450);
     height: 150px;
     padding: 50px 40px;
     border-radius: 20px;
     flex-direction: column;
     overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0, 3s;
+    animation: ease-in-out;
+}
+
+.contform:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 15px 0px;
+
 }
 
 .contform span {
@@ -45,7 +55,7 @@ ul, li {
     padding: -12px;
     font-size: 16px;
     font-weight: 300;
-    color: #fff;
+    color: black;
     pointer-events: none;
     transition: .5s;
     letter-spacing: 1px;
@@ -56,8 +66,8 @@ ul, li {
 .contform > div > input {
     background-color: transparent;
     border-radius: 5px;
-    border: 1px solid rgba(255, 255, 255, 0.521);
-    border-bottom: 1px solid #fff;
+    border: 2px solid rgba(172, 174, 198, 0.821);
+    border-bottom: 1px solid rgb(172, 174, 198);
 }
 
 input:valid ~ span,
@@ -76,7 +86,7 @@ input:focus-visible {
     display: flex;
     justify-content: center;
     padding: 10px;
-    
+    margin-top: 10px;
 }
 
 .btn > button {

@@ -1,0 +1,245 @@
+/*ALL CARDS SHAPE HOVER AND ANIMATIONS*/
+/*********************************************/
+.card-container {
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0, 3s;
+  animation: ease-in-out;
+}
+
+.card-container:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 0px 15px 0px;
+}
+/*********************************************/
+
+/*COLOR PALETTE*/
+/*********************************************/
+.color1 {
+  background-color: #016e2f;
+}
+.color2 {
+  background-color: #009940;
+}
+.color3 {
+  background-color: #00d158;
+}
+.color4 {
+  background-color: #2dcc70;
+}
+.color5 {
+  background-color: #77e1a4;
+}
+.color6 {
+  background-color: #b0e7c7;
+}
+/*********************************************/
+
+/*ANNOUNCEMENT CARD CSS*/
+/*********************************************/
+.image-container img {
+  overflow: hidden;
+  margin-left: 3vh;
+  margin-top: 3vh;
+  height: 9vh;
+  width: 4.5vw;
+}
+
+.announcementsize {
+  width: 85vw;
+  height: 13.8vh;
+  margin-bottom: 1vh;
+}
+/*********************************************/
+
+/*WAREHOUSE OPERATION CARD*/
+/*********************************************/
+.wr {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  max-height: 95vh;
+}
+
+.warehouse1size {
+  margin-right: 2vh;
+  width: 20vw;
+  height: 88vh;
+}
+.warehouse2size {
+  margin-right: 2vh;
+  margin-bottom: 1vh;
+  width: 36vw;
+  height: 52vh;
+}
+.warehouse3size {
+  margin-right: 2vh;
+  width: 36vw;
+  height: 35vh;
+}
+.warehouse4size {
+  margin-right: 2vh;
+  margin-bottom: 1vh;
+  width: 22vw;
+  height: 47vh;
+}
+.warehouse5size {
+  margin-right: 2vh;
+  margin-bottom: 1vh;
+  width: 22vw;
+  height: 40vh;
+}
+/*********************************************/
+
+/*PROFILE CARDS*/
+/*********************************************/
+.pr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: max-content;
+}
+
+.profile1size {
+  margin-right: 2vh;
+  width: 57vw;
+  height: 42vh;
+}
+.profile2size {
+  margin-right: 2vh;
+  margin-bottom: 1vh;
+  width: 25vw;
+  height: 42vh;
+  background-image: url("../styles/addprofile.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.profile3size {
+  margin-right: 2vh;
+  width: 41vw;
+  height: 42vh;
+}
+.profile4size {
+  margin-right: 2vh;
+  margin-bottom: 1vh;
+  width: 20vw;
+  height: 42vh;
+}
+input[type="submit"] {
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-left: 10.5vw;
+  margin-top: 35vh;
+  cursor: pointer;
+}
+
+.btn {
+  position: absolute;
+  background-color: #555;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0;
+}
+
+/*********************************************/
+
+/*WAREHOUSE OPERATION CARD*/
+/*********************************************/
+.homepage {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  max-height: 95vh;
+}
+
+.homepage1 {
+  margin-right: 2vh;
+  margin-bottom: 1vh;
+  width: 15vw;
+  height: 53vh;
+}
+.homepage2 {
+  margin-right: 2vh;
+  width: 15vw;
+  height: 34vh;
+}
+.homepage3 {
+  margin-right: 2vh;
+  margin-bottom: 1vh;
+  width: 43vw;
+  height: 13vh;
+}
+.homepage4 {
+  margin-right: 2vh;
+  margin-bottom: 1vh;
+  width: 43vw;
+  height: 50vh;
+}
+.homepage5 {
+  margin-right: 2vh;
+  margin-bottom: 1vh;
+  width: 43vw;
+  height: 22.5vh;
+}
+
+.homepage6 {
+  margin-right: 2vh;
+  margin-bottom: 1vh;
+  width: 25vw;
+  height: 13.8vh;
+}
+
+/*********************************************/
+
+/*FOOTER*/
+/*********************************************/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5vh;
+  overflow: hidden;
+  transition: none;
+  border-radius: 0px;
+}
+/*********************************************/
+
+/*REPORTS*/
+/****************************************/
+/***************************************/
+
+/*ERROR*/
+/**************************************/
+.error {
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: none;
+  transition: none;
+  animation: none;
+  width: 97vw;
+  height: 94.6vh;
+}
+/**************************************/
+
+/*LOGIN*/
+/**************************************/
+/**************************************/
