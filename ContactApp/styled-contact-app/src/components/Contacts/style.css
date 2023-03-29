@@ -1,0 +1,107 @@
+#container {
+  width: 400px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: none;
+    padding: 7px;
+    margin: 5px 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list {
+    margin: 15px 0;
+}
+
+.list > li {
+    padding: 5px;
+    background-color: rgba(238, 120, 238, 0.349);
+    border-bottom: 1px solid #fff;
+    letter-spacing: 1px;
+}
+
+.contform {
+    position: relative;
+    background: rgba(255, 255, 255, 0.205);
+    height: 150px;
+    padding: 50px 40px;
+    border-radius: 20px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.contform span {
+    position: absolute;
+    margin: 10px -305px;
+    padding: -12px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+    letter-spacing: 1px;
+    
+
+}
+
+.contform > div > input {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.521);
+    border-bottom: 1px solid #fff;
+}
+
+input:valid ~ span,
+input:focus ~ span{
+    color: #fff;
+    transform: translateY(-12px) translateX(-10px);
+    font-size: 12px;
+    color: #8f71b6;
+    padding: 0 10px;
+}
+input:focus-visible {
+    outline: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.btn > button {
+    padding: 5px;
+    width: 60px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    background: #aa9ab4;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn >button:hover {
+    color: #fff;
+    background: linear-gradient(#8fc3ffce,#4a6683,#753e94);
+}
+.btn >button:active {
+    transform: scale(0.95);
+}
+
+.filter {
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: rgb(176, 205, 216, 0.5); 
+}
+
