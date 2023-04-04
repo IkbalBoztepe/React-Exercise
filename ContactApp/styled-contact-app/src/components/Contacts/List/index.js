@@ -13,7 +13,7 @@ function List({ contacts } ) {
 
   console.log("filtered" ,filtered );
   return (
-    <div>
+    <div className=''>
 
       <input placeholder='Filter Contact' value={filterText} onChange={(e) => setFilterText(e.target.value)} className="filter"/>
 

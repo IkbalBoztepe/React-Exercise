@@ -3,7 +3,13 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url(https://media.istockphoto.com/id/887755698/photo/watercolor-textured-background.jpg?b=1&s=170667a&w=0&k=20&c=aiUOD1FgS1Q0CHn6kwFy_COsCaTCWtZ3ZaZYU251Io8=);
+  /* background-image: url(https://media.istockphoto.com/id/887755698/photo/watercolor-textured-background.jpg?b=1&s=170667a&w=0&k=20&c=aiUOD1FgS1Q0CHn6kwFy_COsCaTCWtZ3ZaZYU251Io8=);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: #171718;
+  background-image: -webkit-linear-gradient(62deg, #171718 0%, #717075 100%);
+  background-image: -moz-linear-gradient(62deg, #171718 0%, #717075 100%);
+  background-image: -o-linear-gradient(62deg, #171718 0%, #717075 100%);
+  background-image: linear-gradient(62deg, #171718 0%, #717075 100%);
+
 }
